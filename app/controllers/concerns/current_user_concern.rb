@@ -1,11 +1,16 @@
-class ApplicationController < ActionController::Base
-  include DeviseWhitelist
-  include SetSource
+module CurrentUserConcern
+  extend ActiveSupport::Concern
 
   def current_user
-    super || guest = OpenStruct.new(name: "Guest User", 
+    super || guest_user
+  end
+
+  def guest_user
+    guest = OpenStruct.new(name: "Guest User", 
                                     first_name: "Guest", 
                                     email: "guest@example.com"
                                     )
   end
 end
+
+
