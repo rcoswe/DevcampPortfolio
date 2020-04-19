@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/rcoswe/rcoswe_view_tool
+  revision: 5dd7ad860ea102f6f50e54fea0b76d6b28fd9330
+  specs:
+    rcoswe_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -219,6 +225,7 @@ DEPENDENCIES
   pry-byebug
   puma (~> 3.11)
   rails (~> 5.2.4, >= 5.2.4.2)
+  rcoswe_view_tool!
   sass-rails (~> 5.0)
   spring
   spring-watcher-listen (~> 2.0.0)
