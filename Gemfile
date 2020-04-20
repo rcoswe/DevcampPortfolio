@@ -61,4 +61,4 @@ gem 'bootstrap', '~> 4.4.1'
 
 gem 'jquery-rails'
 
-gem 'rcoswe_view_tool', git: 'https://github.com/rcoswe/rcoswe_view_tool'
+gem 'rcoswe_view_tool', '~> 0.1.0'
